@@ -12,4 +12,5 @@ pipeline {
             steps {
                 // Build the snapshot
                sh 'npm install && npm run build'
-               
+            }
+        }  
