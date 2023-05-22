@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build the snapshot
-               sh 'npm install && npm run build'
+               sh 'npm i -g && npm run build'
             }
         }
     }
